@@ -1,7 +1,7 @@
 {
-  "name": "تليثون العرب",
-  "description": "تنصيب تليثون العرب الاصلي معرف قناتنا @iqthon",
-  "logo": "https://telegra.ph/file/277559574a1e241f5532e.jpg",
+  "name": "تليثون بـانـدا",
+  "description": "لتنصيب سورس باندا والتواصل مع المطور ، اليوزر @Panda_X19",
+  "logo": "https://telegra.ph/file/d7e29f763c705d4405a2e.jpg",
   "keywords": [    "plugin",    "modular",    "productivity"  ],
   "repository": "https://github.com/Telethon-helper/Helper/",
   "website": "#TODO",
@@ -33,12 +33,12 @@
     },
     "TZ": {
       "description": " الوقت",
-      "value": "Asia/Baghdad",
+      "value": "Africa/Egypt",
       "required": false
     },
     "UPSTREAM_REPO": {
       "description": "لاتـغيره! ",
-      "value": "Telethon-Ar",
+      "value": "ᯓ 𝐏𝐀𝐍𝐃𝐀 🖤 ..𖤐",
       "required": false
     }
   },
