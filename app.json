@@ -1,7 +1,7 @@
 {
-  "name": "تليثون بـانـدا",
-  "description": "لتنصيب سورس باندا والتواصل مع المطور ، اليوزر @Panda_X19",
-  "logo": "https://telegra.ph/file/d7e29f763c705d4405a2e.jpg",
+  "name": "تليثون افيـونـا",
+  "description": "لتنصيب سورس باندا والتواصل مع المطور ، اليوزر @l_03_l",
+  "logo": "https://telegra.ph/file/f9282f39c40c9dde14251.jpg",
   "keywords": [    "plugin",    "modular",    "productivity"  ],
   "repository": "https://github.com/Telethon-helper/Helper/",
   "website": "#TODO",
@@ -38,7 +38,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "لاتـغيره! ",
-      "value": "ᯓ 𝐏𝐀𝐍𝐃𝐀 🖤 ..𖤐",
+      "value": "ᯓ -𝑇ℎ𝑒› َِ𝘢َِ𝙁َِ𝘠َِ𝘰َِ𝙉َِ𝘢 𝐸𝐿 𝐾𝑒𝐵𝑒𝑟 ,#'(مـغـلق).𖤐",
       "required": false
     }
   },
