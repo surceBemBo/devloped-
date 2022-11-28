@@ -3,10 +3,10 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "𝑇ℎ𝑒› َِ𝘢َِ𝙁َِ𝘠َِ𝘰َِ𝙉َِ𝘢 𝐸𝐿 𝐾𝑒𝐵𝑒𝑟 ,#'(مـغـلق)𖤐]]
+    if [[ $UPSTREAM_REPO == AFYONA ..𖤐"]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "-𝑇ℎ𝑒› َِ𝘢َِ𝙁َِ𝘠َِ𝘰َِ𝙉َِ𝘢 𝐸𝐿 𝐾𝑒𝐵𝑒𝑟 ,#'(مـغـلق)𖤐" ]]
+    elif [[ $UPSTREAM_REPO == "AFYONA ..𖤐" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
