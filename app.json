@@ -36,9 +36,10 @@
       "value": "Africa/Cairo",
       "required": false
     },
-    "UPSTREAM_REPO": {
+   "UPSTREAM_REPO": {
       "description": "لاتـغيره! ",
-      "value": "AFYONA ",required": false
+      "value": "AFYONA ..𖤐",
+      "required": false 
     }
   },
   "addons": [{
