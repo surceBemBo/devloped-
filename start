@@ -3,10 +3,10 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "ᯓ 𝐏𝐀𝐍𝐃𝐀 🖤 ..𖤐" ]]
+    if [[ $UPSTREAM_REPO == "𝑇ℎ𝑒› َِ𝘢َِ𝙁َِ𝘠َِ𝘰َِ𝙉َِ𝘢 𝐸𝐿 𝐾𝑒𝐵𝑒𝑟 ,#'(مـغـلق)𖤐]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "ᯓ 𝐏𝐀𝐍𝐃𝐀 🖤 ..𖤐" ]]
+    elif [[ $UPSTREAM_REPO == "-𝑇ℎ𝑒› َِ𝘢َِ𝙁َِ𝘠َِ𝘰َِ𝙉َِ𝘢 𝐸𝐿 𝐾𝑒𝐵𝑒𝑟 ,#'(مـغـلق)𖤐" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -26,16 +26,16 @@ _get_repolink () {
 _setting_bot () {
     local zippath
     zippath="iqthon.zip"
-    echo "   تنزيل اكواد سورس باندا ..."
+    echo "   تنزيل اكواد السورس ..."
     wget -q $(_get_repolink) -O "$zippath"
-    echo "  تنزيل تخزين سورس باندا ..."
+    echo "  تنزيل تخزين السورس ..."
     CATPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "تم الانتهاء"
     rm -rf "$zippath"
     sleep 5
     cd $CATPATH
-    echo "جـاري الاسـتراد لـتليثون بـانــداا  ..."
+    echo "جـاري الاسـتراد لـتليثون افـــــيـــــونا  ..."
     echo "1
     "
 
